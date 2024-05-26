@@ -9,7 +9,7 @@ import sys
 
 # -----------
 
-with open('config.json') as f:
+with open('config.py') as f:
     data = json.load(f)
     api_id = data['api_id']
     api_hash = data['api_hash']
